@@ -1,6 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 german-lernreise
 
-## Getting Started
+A dynamic, AI-enhanced platform to help learners master the German language through interactive lessons, flashcards, games, and personalized content.
+
+---
+
+## 🚀 Live Demo
+Coming soon via [Vercel](https://vercel.com)
+
+---
+
+## 📦 Tech Stack
+
+- **Framework**: Next.js (App Router, MDX support)
+- **Styling**: Tailwind CSS, DaisyUI / ShadCN
+- **Auth**: Firebase (coming soon)
+- **AI Integration**: DeepL API, ChatGPT (planned)
+- **Markdown**: Obsidian-compatible `.mdx`
+- **Game Mode**: (planned) 2D top-down retro web game
+
+---
+
+## ✨ Features
+
+- 📘 Auto-generated lesson dropdown from `.mdx`
+- 🧠 AI-ready architecture for custom lesson building
+- 🔐 Login system (Firebase auth in progress)
+- 🃏 Flashcard builder from vocab
+- ✍️ Syncs with Obsidian and Notion documentation
+
+---
+
+## 📁 Folder Structure (WIP)
+
+```bash
+├── /content/lessons/        # Markdown-based lessons
+├── /pages/lessons/[slug].js # Dynamic MDX rendering
+├── /lib/getLessonsList.js   # Server-side file parser
+├── /components/             # UI Components
+├── /public/                 # Static assets
+├── /docs/                   # Dev notes (Obsidian synced)
+```
+
+---
+
+## 📚 Dev Journal
+
+This project documents my journey into full-stack web development, AI, and language learning.  
+Progress and notes are maintained in:
+
+- 📓 `docs/` folder (Obsidian-synced markdown)
+- 🗂 [Notion Project Journal](https://www.notion.so/) *(link coming soon)*
+
+---
+
+## 🛠 Getting Started
 
 First, run the development server:
 
@@ -8,29 +61,38 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Edit the homepage via `app/page.tsx`. Changes auto-update.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧠 Future Plans
 
-To learn more about Next.js, take a look at the following resources:
+- DeepL + ChatGPT-powered AI lesson generation
+- Top-down educational web game (Berlin/Vienna explorer)
+- Mobile-friendly vocab and flashcard apps
+- User dashboard with XP and progress tracking
+- Custom user learning paths
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🙋‍♂️ Author
 
-## Deploy on Vercel
+**Kieran Reilly**  
+GitHub: [dripz0r](https://github.com/dripz0r)  
+Project Repo: [mysite-login](https://github.com/dripz0r/mysite-login)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+
+MIT — free to use, modify, and learn from.
+
+---
+
+## 📓 Developer Journal
+All daily dev notes, screenshots, and logs:  
+📁 [`/dev-notes/`](./dev-notes/)
